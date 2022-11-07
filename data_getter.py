@@ -40,7 +40,7 @@ class data_getter:
         return json.loads(response.text)
 
     def save_to_file(self, path):
-        if not os.access(path, os.W_OK):
+        if not os.access(path, os.W_OK) and os.path.exists(path):
             logging.error(f"no permissions to save the file in {path}")
             raise PermissionError
 
