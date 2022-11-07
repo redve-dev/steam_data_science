@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG, filename='logs')
 
 class data_getter:
-    def __init__(self,input_file='input.json', LoadFromFile=False, data_path='data.json'):
+    def __init__(self,input_file='data_files/input.json', LoadFromFile=False, data_path='data_files/data.json'):
         if LoadFromFile:
             self.data = self.load_from_file(data_path)
             return
