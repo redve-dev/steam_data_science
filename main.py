@@ -1,13 +1,13 @@
-import data_getter
+from data_getter import data_getter
 
 def main():
     try:
-        d=data_getter.data_getter('data_files/input.json', True, 'data_files/data.json')
-        print(d)
+        gathered_data = data_getter(input_file='data_files/input.json', LoadFromFile=True, data_path='data_files/data.json')
+        print(gathered_data)
     except:
         exit("something went wrong, check logs file")
 
-    d.save_to_file('no_permissions_to_write')
+    gathered_data.save_to_file('no_permissions_to_write')
     
 
 if __name__ == "__main__":
