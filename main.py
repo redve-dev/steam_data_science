@@ -5,7 +5,9 @@ def main():
         d=data_getter.data_getter('data_files/input.json', True, 'data_files/data.json')
         print(d)
     except:
-        print("something went wrong, check logs file")
+        exit("something went wrong, check logs file")
+
+    d.save_to_file('no_permissions_to_write')
     
 
 if __name__ == "__main__":
