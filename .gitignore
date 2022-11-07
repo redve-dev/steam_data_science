@@ -1,3 +1,4 @@
 logs
 __pycache__
-
+data_files/data.json
+data_files/input.json
