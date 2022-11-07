@@ -1,6 +1,6 @@
 <h1> Repo to play with data science </h1>
 
-<p> In this repository, i will do data analysis, based on my own steam statistics in Counter Strike: Global Offensive.</p>
+<p> In this repository, I will do data analysis based on my own steam statistics in Counter Strike: Global Offensive.</p>
 
 <p><b>To get your own statistics, you need:</b><br>
 1. steamid, which can be found here: https://steamid.pro/ <br>
