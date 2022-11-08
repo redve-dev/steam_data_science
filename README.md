@@ -8,9 +8,9 @@
 3. appid, which for cs:go is 730 by default, but feel free to experiment.<br>
 Change it to 440 for Team Fortress 2 data
 
-# WARNING: Changing appid might work to gather the data<br>
-# but it's completely random what will happen<br>
-# if you try to process it!<br>
+<h2> WARNING: Changing appid might work to gather the data<br>
+ but it's completely random what will happen<br>
+ if you try to process it!<br></h2>
 </p>
 
 <p>
