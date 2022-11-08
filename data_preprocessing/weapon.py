@@ -8,14 +8,7 @@ class weapon:
         self.kills = kills
 
     def create_json(self):
-        "this function generates json from its data"
-        data = {
-                "name": self.name,
-                "shots": self.shots,
-                "hits": self.hits,
-                "kills": self.kills
-                }
-        return json.dumps(data)
+        return json.dumps(vars(self))
 
     def __str__(self):
         return f"n: {self.name} - s: {self.shots} - h: {self.hits} - k: {self.kills}"
