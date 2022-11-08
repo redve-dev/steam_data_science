@@ -1,5 +1,3 @@
 logs
 __pycache__
-data_gathering/data_files/data.json
 data_gathering/data_files/input.json
-data_preprocessing/data.json
