@@ -4,6 +4,7 @@ from sys import argv
 import pathlib
 
 def main():
+    # at this point i assume i receive correct data
     data_file = "data.json"
     if len(argv) != 1:
         _, data_file = argv
