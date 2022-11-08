@@ -1,5 +1,3 @@
-import json
-
 class weapon:
     def __init__(self, name, shots, hits, kills):
         self.name = name
@@ -7,8 +5,8 @@ class weapon:
         self.hits = hits
         self.kills = kills
 
-    def create_json(self):
-        return json.dumps(vars(self))
+    def create_dict(self):
+        return vars(self)
 
     def __str__(self):
         return f"n: {self.name} - s: {self.shots} - h: {self.hits} - k: {self.kills}"
