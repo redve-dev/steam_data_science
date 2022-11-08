@@ -1,13 +1,12 @@
-from data_getter import data_getter
+import data_gathering
 
 def main():
     try:
-        gathered_data = data_getter(input_file='data_files/input.json', LoadFromFile=False, data_path='data_files/data.json')
-        # print(gathered_data)
+        gathered_data = data_gathering.get_data_from_file('data_files/data.json')
     except:
         exit("something went wrong, check logs file")
 
-    gathered_data.save_to_file('tf2_data.json')
+    data_gathering.save_to_file('f2_data.json', data=gathered_data)
     
 
 if __name__ == "__main__":
