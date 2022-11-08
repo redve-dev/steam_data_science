@@ -13,7 +13,6 @@ def get_data_from_api(input_file):
 def get_data_from_file(path):
     if not os.path.exists(path) or os.path.getsize(path) == 0:
         logging.error(f"Path: {path} - Does not exist, or is empty")
-        raise OSError
     with open(path, 'r') as file:
         return json.loads(file.read())
 
@@ -27,12 +26,11 @@ def perform_request(parameters):
     except:
         logging.critical("couldn't perform request")
         exit("check logs")
-    return json.loads(response.text)
+    return response.json()
 
 def save_to_file(path, data):
     if not os.access(path, os.W_OK) and os.path.exists(path):
         logging.error(f"no permissions to save the file in {path}")
-        raise PermissionError
 
     with open(path, 'w') as file:
         file.write(json.dumps(data, indent=4))
