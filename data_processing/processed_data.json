@@ -1,0 +1,182 @@
+[
+    {
+        "name": "deagle",
+        "shots": 21008,
+        "hits": 6101,
+        "kills": 2433
+    },
+    {
+        "name": "glock",
+        "shots": 44710,
+        "hits": 9358,
+        "kills": 2355
+    },
+    {
+        "name": "elite",
+        "shots": 2426,
+        "hits": 440,
+        "kills": 141
+    },
+    {
+        "name": "fiveseven",
+        "shots": 5802,
+        "hits": 1194,
+        "kills": 341
+    },
+    {
+        "name": "awp",
+        "shots": 13926,
+        "hits": 5674,
+        "kills": 4774
+    },
+    {
+        "name": "ak47",
+        "shots": 205300,
+        "hits": 48306,
+        "kills": 12665
+    },
+    {
+        "name": "aug",
+        "shots": 18964,
+        "hits": 5022,
+        "kills": 1448
+    },
+    {
+        "name": "famas",
+        "shots": 17440,
+        "hits": 4277,
+        "kills": 1160
+    },
+    {
+        "name": "g3sg1",
+        "shots": 2338,
+        "hits": 552,
+        "kills": 299
+    },
+    {
+        "name": "p90",
+        "shots": 16668,
+        "hits": 3594,
+        "kills": 651
+    },
+    {
+        "name": "mac10",
+        "shots": 10978,
+        "hits": 2436,
+        "kills": 443
+    },
+    {
+        "name": "ump45",
+        "shots": 13780,
+        "hits": 3373,
+        "kills": 645
+    },
+    {
+        "name": "xm1014",
+        "shots": 19368,
+        "hits": 4700,
+        "kills": 649
+    },
+    {
+        "name": "m249",
+        "shots": 3561,
+        "hits": 626,
+        "kills": 177
+    },
+    {
+        "name": "hkp2000",
+        "shots": 42326,
+        "hits": 9448,
+        "kills": 3014
+    },
+    {
+        "name": "p250",
+        "shots": 36301,
+        "hits": 9383,
+        "kills": 2076
+    },
+    {
+        "name": "sg556",
+        "shots": 13508,
+        "hits": 3064,
+        "kills": 1056
+    },
+    {
+        "name": "scar20",
+        "shots": 3104,
+        "hits": 967,
+        "kills": 464
+    },
+    {
+        "name": "ssg08",
+        "shots": 2171,
+        "hits": 861,
+        "kills": 404
+    },
+    {
+        "name": "mp7",
+        "shots": 23492,
+        "hits": 5274,
+        "kills": 994
+    },
+    {
+        "name": "mp9",
+        "shots": 8930,
+        "hits": 2109,
+        "kills": 343
+    },
+    {
+        "name": "nova",
+        "shots": 8356,
+        "hits": 1786,
+        "kills": 257
+    },
+    {
+        "name": "negev",
+        "shots": 18924,
+        "hits": 1144,
+        "kills": 282
+    },
+    {
+        "name": "sawedoff",
+        "shots": 3545,
+        "hits": 659,
+        "kills": 112
+    },
+    {
+        "name": "bizon",
+        "shots": 10179,
+        "hits": 2039,
+        "kills": 310
+    },
+    {
+        "name": "tec9",
+        "shots": 6717,
+        "hits": 1313,
+        "kills": 345
+    },
+    {
+        "name": "mag7",
+        "shots": 24270,
+        "hits": 5271,
+        "kills": 707
+    },
+    {
+        "name": "m4a1",
+        "shots": 133446,
+        "hits": 31092,
+        "kills": 7746
+    },
+    {
+        "name": "galilar",
+        "shots": 19135,
+        "hits": 4492,
+        "kills": 1252
+    },
+    {
+        "name": "taser",
+        "shots": 163,
+        "hits": 0,
+        "kills": 21
+    }
+]
