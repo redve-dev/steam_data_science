@@ -30,9 +30,9 @@ def plot_values(data):
     a = 0.6
     plt.bar(names, accuracy, color='red', alpha=a, label = 'accuracy %')
     plt.bar(names, firing_speed, color='blue', alpha=a, label = 'normalized firing speed')
+    plt.legend(loc="upper left")
 
 def setup_plot():
-    plt.legend(loc="upper left")
     plt.xticks(rotation = 70)
 
 def main():
