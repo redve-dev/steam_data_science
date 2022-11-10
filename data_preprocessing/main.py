@@ -5,10 +5,7 @@ import pathlib
 
 def get_weapon_names(data):
     "this function returns an array of weapon names"
-    weapon_names = []
-    for el in data["playerstats"]["stats"]:
-        if "total_shots_" in el["name"]:
-            weapon_names.append(el["name"][12:])
+    weapon_names = [el["name"][12:] for el in data["playerstats"]["stats"] if "total_shots_" in el["name"]]
     weapon_names.remove('hit')
     weapon_names.remove('fired')
     return weapon_names
