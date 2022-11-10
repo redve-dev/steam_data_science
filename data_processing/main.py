@@ -36,9 +36,11 @@ def setup_plot():
     plt.xticks(rotation = 70)
 
 def main():
+    plt.figure(figsize=[6, 6])
     data = generate_plot_data()
     setup_plot()
     plot_values(data)
+    plt.savefig("graph.png", format="png")
     plt.show()
 
 if __name__ == "__main__":
